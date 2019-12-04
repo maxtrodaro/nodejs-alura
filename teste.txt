@@ -1,0 +1,18 @@
+Bom dia,
+
+Estou tomando o seguinte erro no terminal e não estou conseguindo solucionar, baixei o seu projeto e copiei os arquivos e ainda assim não consegui!
+
+TypeError: Cannot read property 'titulo' of undefined
+    at Promise (C:\Users\User\Documents\Alura\Alura - NodeJS\src\app\infra\livro-dao.js:16:27)
+    at new Promise (<anonymous>)
+    at LivroDAO.adiciona (C:\Users\User\Documents\Alura\Alura - NodeJS\src\app\infra\livro-dao.js:7:16)
+    at C:\Users\User\Documents\Alura\Alura - NodeJS\src\app\rotas\rotas.js:39:18
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Alura\Alura - NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Alura\Alura - NodeJS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\User\Documents\Alura\Alura - NodeJS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Alura\Alura - NodeJS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\User\Documents\Alura\Alura - NodeJS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\User\Documents\Alura\Alura - NodeJS\node_modules\express\lib\router\index.js:335:12)
+
+Segue abaixo o link do drive para download 
+https://drive.google.com/drive/u/0/folders/1oOYhPV4HUIokL_F-Vgpey9VfJNTWCn_z
