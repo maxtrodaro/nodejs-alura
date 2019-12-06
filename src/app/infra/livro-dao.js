@@ -76,12 +76,12 @@ class LivroDAO {
         return new Promise((resolve, reject) => {
             this._db.get(
                 `
-                    DELETE FROM livro WHERE id = ?
+                    DELETE FROM livros WHERE id = ?
                 `,
                 [id],
                 (erro, livro) => {
                     if (erro){
-                        return reject('Não foi possível atualizar o livro');
+                        return reject(erro);
                     }
                     resolve ();
                 }
